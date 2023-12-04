@@ -20,16 +20,15 @@ body {
 }
 @keyframes expandImage {
   0% {
-    transform: scale(1); /* Initial size */
+    transform: scale(0.85); /* Initial size */
   }
   50% {
-    transform: scale(1.2); /* Expanding to 120% of the original size */
+    transform: scale(1); /* Expanding to 120% of the original size */
   }
   100% {
-    transform: scale(1); /* Returning to the original size */
+    transform: scale(0.85); /* Returning to the original size */
   }
 }
-
 .section1 {
   position: relative; /* Set the position to relative for z-index to work */
 }
