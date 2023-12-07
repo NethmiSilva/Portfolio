@@ -110,4 +110,10 @@ $(document).ready(function () {
     .click(function () {
       window.open("https://www.linkedin.com/", "_blank");
     });
+    //GitHub
+  $("fa fa-github")
+    .parent()
+    .click(function () {
+      window.open("https://github.com/NethmiSilva", "_blank");
+    });
 });
